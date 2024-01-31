@@ -1,6 +1,5 @@
-import 'dart:typed_data';
-
 main() {
+  /*********************[4-1-1]다트의 타입 클래스*********************/
   //문자형 데이터
   String data1 = '0';
   //정수형 데이터
@@ -26,7 +25,9 @@ main() {
 
   //각각의 자료형 및 실행문 출력 예시
   print('String: $data1, Int: $data2, Double: $data3, Boolean: $data4, Sum: ${data2 + data3}, Func: ${func(data2, data3, data4)}');
+  print('\n');
 
+  /*********************[4-1-3]형 변환하기*********************/
   //문자형을 정수형으로 캐스팅
   int sti_data = int.parse(data1);
   //정수형을 실수형으로 캐스팅

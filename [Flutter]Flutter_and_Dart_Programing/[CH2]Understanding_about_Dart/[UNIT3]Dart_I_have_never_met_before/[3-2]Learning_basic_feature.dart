@@ -8,13 +8,13 @@
 * import 'ConponentsOfDartFile.dart';
 * 식별자에 별칭을 정의하여 사용할 수도 있다.
 */
-import 'ConponentsOfDartFile.dart' as Cof;
+import '[3-1]Conponents_of_Dart_file.dart' as Cof;
 
 /*  show 예약어를 사용하여 특정 요소들만 import 할 수 있다.
 그 외에 특정 요소만 제외를 하는 경우에는 hide 예약어를 사용한다.
  */
-import 'ConponentsOfDartFile.dart' show User;
-import 'CreateLibrary.dart';
+import '[3-1]Conponents_of_Dart_file.dart' show User;
+import '[3-3]Create_Library.dart';
 
 main() {
   int no = Cof.no;
